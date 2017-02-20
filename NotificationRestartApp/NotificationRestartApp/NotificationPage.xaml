@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:NotificationRestartApp"
-             x:Class="NotificationRestartApp.MainPage">
-
+             x:Class="NotificationRestartApp.NotificationPage">
+    
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
 
-        <Button Text="Notification Page" Clicked="Button_Clicked" />
+        <Button Text="Notification ON" Clicked="Button_Clicked_ON" />
+        <Button Text="Notification OFF" Clicked="Button_Clicked_OFF" />
 
     </StackLayout>
-
+    
 </ContentPage>

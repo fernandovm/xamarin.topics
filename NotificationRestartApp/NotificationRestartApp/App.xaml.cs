@@ -30,5 +30,7 @@ namespace NotificationRestartApp
         {
             // Handle when your app resumes
         }
+
+        public IDialogServices DialogServices { get; set; }
     }
 }
